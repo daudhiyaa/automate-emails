@@ -1,6 +1,3 @@
-# automate-emails
-program to send gmail automatically using py
-
 source code : [Link](https://www.youtube.com/watch?v=g_j6ILT-X0k)
 
 ## How to run :
