@@ -1,4 +1,4 @@
-source code : [Link](https://www.youtube.com/watch?v=g_j6ILT-X0k)
+modified from : [source](https://www.youtube.com/watch?v=g_j6ILT-X0k)
 
 ## How to run :
 - clone the repo `git clone https://github.com/daudhiyaa/automate-emails.git`
