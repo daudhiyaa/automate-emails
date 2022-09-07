@@ -6,7 +6,10 @@ import smtplib
 
 email_sender = 'youremail@gmail.com'
 email_pass = os.environ.get("EMAIL_PASS")
-email_receiver = ['youremail@gmail.com']
+
+email_receiver = []
+number_of_recipients = 5
+for i in range(number_of_recipients): email_receiver.append(input())
 
 subject = 'New Py Tutorial'
 body = '''
