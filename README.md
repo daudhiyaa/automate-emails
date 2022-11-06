@@ -29,7 +29,7 @@ python3 main.py
 
 - if you get an error in your `email_pass`, follow [this video](https://www.youtube.com/watch?v=g_j6ILT-X0k) to setup your `email_pass`
 
-- if you want to hide the email addresses of receiver, remove `line 19`
+- if you want to hide the email addresses of receiver, remove `line 17`
 
 ## Benefit using this code
 
