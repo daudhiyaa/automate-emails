@@ -2,24 +2,24 @@
 
 1. clone the repo
 
-```git
-git clone https://github.com/daudhiyaa/automate-emails.git
-```
+   ```git
+   git clone https://github.com/daudhiyaa/automate-emails.git
+   ```
 
 2. customize these variables :
 
-```py
-- number_of_recipients
-- email_sender
-- subject
-- body
-```
+   ```py
+   - number_of_recipients
+   - email_sender
+   - subject
+   - body
+   ```
 
 3. Run the program
 
-```py
-python3 main.py
-```
+   ```py
+   python3 main.py
+   ```
 
 4. input the list of your `email_receiver` in terminal, separate by new line
 
