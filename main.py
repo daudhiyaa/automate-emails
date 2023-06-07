@@ -1,15 +1,21 @@
 from email.message import EmailMessage as EM
 import ssl, os, smtplib, imghdr
 
-number_of_recipients = 2
 email_sender = 'youremail@gmail.com'
 email_pass = os.environ.get("EMAIL_PASS")
 email_receiver, names = [], []
 
-print('Enter the email addresses of receiver :')
-for i in range(number_of_recipients): email_receiver.append(input())
-print('\nEnter the names of receiver :')
-for i in range(number_of_recipients): names.append(input())
+f = open("recipients_name.txt", "r")
+for recipients in f:
+    if "\n" in recipients:
+        names.append(recipients[:-1])
+    else: names.append(recipients)
+
+f = open("recipients_email.txt", "r")
+for email in f:
+    if "\n" in email:
+        email_receiver.append(email[:-1])
+    else: email_receiver.append(email)
 
 subject = 'New Py Tutorial'
 em = EM()
